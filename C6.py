@@ -1,5 +1,5 @@
 Name=input("What is Your Name = ")
-age=int(input("What is Your Age = "))
+age=input("What is Your Age = ")
 age2=int(age)
 
 print("Name is ",Name)
