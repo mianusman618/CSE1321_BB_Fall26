@@ -1,11 +1,10 @@
 age_str=input("Enter Your Age : ")
 age_int=int(age_str)
-if age_int > 18 or age_int == 18:
+if age_int>=18:
     print("You are allowed to vote")
-    print("This is 2nd line in if block")
-print("This is not part of any IF block")
-if age_int <= 18:
+else:
     print("You are not allowed to vote")
+
 
 
 
