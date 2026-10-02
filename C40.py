@@ -3,7 +3,7 @@ for row in range(num):#0,1,2,3
     for sp in range(num-(row+1)):
         print(" ",end="")
     for col in range(row+1):
-        print("*",end="")
+        print("* ",end="")
     print()
 #    *//row0
 #   **
