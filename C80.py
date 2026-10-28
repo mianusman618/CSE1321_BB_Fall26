@@ -1,0 +1,10 @@
+# list_var=[9,3,5,1,8,2]
+# print(list_var)
+# print(list_var.sort())
+# print(list_var)
+tuple_var=(8,1,4,7,9,2)
+print(tuple_var)
+list_var2=sorted(tuple_var)
+print(list_var2)
+new_tuple=tuple(list_var2)
+print(new_tuple)
