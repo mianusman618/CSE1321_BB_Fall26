@@ -1,0 +1,9 @@
+tuple_var=([4,1,7],"ABC",5)
+print(tuple_var)
+list_var=list(tuple_var)
+print(list_var)
+list_var[2]=60
+tuple_var=tuple(list_var)
+#tuple_var[2]=60
+tuple_var[0][2]=70
+print(tuple_var)
